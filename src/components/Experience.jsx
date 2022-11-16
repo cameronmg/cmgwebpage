@@ -29,9 +29,9 @@ const Analytics = () => {
           <p className="py-1 text-[#16e4f3]"> •  Utilized the Python libraries Matplotlib, Psi4, and NGLview to organize parsed molecular data</p>
           <p className="py-1 text-[#16e4f3]"> •  Collaborated with a group of fellow students to create a program that calculates the molecular energy of an atom</p>
 
-         <a href ="/" className = "mx-auto">
+         {/*<a href ="/" className = "mx-auto">
           <button className="bg-[#16e4f3] text-[#192841] w-[200px] rounded-md font-bold my-6 py-3 animate-bounce hover:bg-[#d099e2] hover:text-white ">Home</button>   
-         </a>
+         </a>*/}
         
         </div>
       </div>

@@ -18,9 +18,9 @@ const Analytics = () => {
           <h2 className=" py-3 text-1xl  font-bold text-[rgb(22,228,243)]"> Associate of Computer Science, Lone Star College System - Present </h2>
           <p className="py-1 text-[#16e4f3]">• Lone Star College CyFair, Cypress, TX</p>
           <p className="py-1 text-[#16e4f3]">• GPA: 3.95</p>
-          <a href="/Experience" className = "mx-auto">
+          {/*<a href="/Experience" className = "mx-auto">
             <button className="bg-[#16e4f3] text-[#192841] w-[200px] rounded-md font-bold my-6 py-3 animate-bounce hover:bg-[#d099e2] hover:text-white ">Experience</button>
-          </a>
+          </a>*/}
         </div>
       </div>
     </div>
