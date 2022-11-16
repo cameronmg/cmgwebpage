@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="flex justify-center items-center">    
             <img className ='absolute mt-7 h-[840px] w-[620px] sm:h-[800px] sm:w-[800px] md:h-[710px] md:w-[1000px] lg:w-[1900px]'src={Gif} alt=""/>
           </div>
-          <a href="/Education">
+          <a href="https://cameronmg.github.io/Education">
             <button className=" font-bold bg-[#16e4f3] text-[#192841] w-[200px] rounded-md mt-[10%] my-6 mx-auto py-3 animate-bounce hover:bg-[#d099e2] hover:text-[#16e4f3] ">Go to Education</button>
           </a>
         </div>
