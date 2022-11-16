@@ -4,12 +4,12 @@ import Gif from "../assests/Earth-Rotating-Sun-Space.gif"
 
 const Hero = () => {
   return (
-    <div>
+    <div className = "">
       <div className="bg-cover bg-blend-normal text-white">
-        <div className=" z-0 max-w-[800px] w-full h-screen mx-auto text-center font-montsert font-weight-600 font-semibold flex flex-col justify-center">
+        <div className=" max-w-[800px] w-full h-screen mx-auto text-center font-montsert font-weight-600 font-semibold flex flex-col justify-center">
           {/*put the items on same line with (flex) and center them*/}
           <div className="flex justify-center items-center">    
-            <img className ='absolute mt-20 lg:mt-[-2%] h-[840px] w-[620px] sm:h-[800px] sm:w-[800px] md:h-[710px] md:w-[1000px] lg:w-[1900px]'src={Gif} alt=""/>
+            <img className ='absolute mt-[19%] lg:mt-[-2%] h-[840px] w-[620px] sm:h-[800px] sm:w-[800px] md:h-[710px] md:w-[1000px] lg:w-[1900px]'src={Gif} alt=""/>
           </div>
           <h1 className = "font-bold text-[#16e4f3] animate-bounce text-center text-4xl ">Welcome to my webpage!</h1>
           {/*<a href="/Education">

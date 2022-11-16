@@ -19,10 +19,10 @@ function App() {
     <Router>
       <Navbar/>
       <Welcome/>
-          
+        
         <Routes>
           {/*<Route path = '/' element={<Home/>} />*/}
-          <Route path = '/' element={<Hero/>} />
+          <Route path = '/cmgwebpage' element={<Hero/>} />
           <Route path = '/Education' element={<Education/>} />
           <Route path = '/Experience' element={<Experience/>} />
           

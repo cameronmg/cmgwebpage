@@ -24,7 +24,7 @@ const Navbar = () => {
             <ul className = 'hidden md:flex'>
                 {/*defining links and create padding for the links so they have spacing*/}
                 
-                <Link to="/" className = 'font-bold p-4 text-[#16e4f3] hover:border-b-4 hover:border-[#16e4f3] duration-100 hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer'> Home</Link>
+                <Link to="/cmgwebpage" className = 'font-bold p-4 text-[#16e4f3] hover:border-b-4 hover:border-[#16e4f3] duration-100 hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer'> Home</Link>
                 <Link to="/Education" className = 'font-bold p-4 text-[#16e4f3] hover:border-b-4 hover:border-[#16e4f3] duration-100 hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer'>Education</Link>
                 <Link to="/Experience" className = 'font-bold p-4 text-[#16e4f3] hover:border-b-4 hover:border-[#16e4f3] duration-100 hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer'>Experience</Link>
                 
@@ -42,7 +42,7 @@ const Navbar = () => {
         {/*if(?) the navbar is not true(closed) then show the navbar else(:) hide the navbar(left-[-100%])*/}
         <div className = {nav ? ' z-40 md:hidden md:absolute fixed top-0 w-[100%] h-[40%] box-decoration-slice bg-gradient-to-r from-[#1039a8] to-[#18b4b9] ease-in-out duration-300 right-[0%] pt-[22%] ' : 'md:hidden fixed top-0 h-[50%] w-[100%] top-[-200%] ease-in-out duration-300 right-[0%]'}>
             <ul className ='grid grid-col uppercase p-4'>
-                <Link to="/" onClick ={handleNav} className = 'font-bold p-4 text-[#16e4f3] hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer' > Home</Link>
+                <Link to="/cmgwebpage" onClick ={handleNav} className = 'font-bold p-4 text-[#16e4f3] hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer' > Home</Link>
                 <Link to="/Education" onClick ={handleNav} className = 'font-bold p-4 text-[#16e4f3] hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer'>Education</Link>
                 <Link to="/Experience" onClick ={handleNav} className = 'font-bold p-4 text-[#16e4f3] hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer'>Experience</Link>
             </ul>

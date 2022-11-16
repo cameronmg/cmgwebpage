@@ -9,7 +9,7 @@ const Analytics = () => {
     <div className="z-0 pt-40 w-full bg-[#192841] py-16 px-4 ">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img className="w-[500px] mx-auto my-4 drop-shadow-xl" src={Image} alt="/" />
-        <div className="flex flex-col justify-center md:mr-[-.5%] md:pl-5 md:mt-[-10%]">
+        <div className="flex flex-col justify-center md:mr-[-.5%] md:pl-5 md:mt-[-10%] lg:mt-[-60%]">
           {/*if the screen is above medium(md) make the text 4xl// if the screen size is above small(sm) make the text 3xl// and on phones make the text 2xl*/}
           {/*define padding of 2rems (py-2)*/}
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-8 text-center text-[#16e4f3] ">Education</h1>
