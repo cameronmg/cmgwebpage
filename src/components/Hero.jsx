@@ -5,7 +5,7 @@ import Gif from "../assests/Earth-Rotating-Sun-Space.gif"
 const Hero = () => {
   return (
     <div>
-      <div className="bg-cover  bg-blend-normal  z-0  text-white">
+      <div className="bg-cover bg-blend-normal text-white">
         <div className=" z-0 max-w-[800px] w-full h-screen mx-auto text-center font-montsert font-weight-600 font-semibold flex flex-col justify-center">
           {/*put the items on same line with (flex) and center them*/}
           <div className="flex justify-center items-center">    

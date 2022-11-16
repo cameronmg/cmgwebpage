@@ -18,7 +18,8 @@ function App() {
   return (
     <Router>
       <Navbar/>
-      <Welcome/>       
+      <Welcome/>
+          
         <Routes>
           {/*<Route path = '/' element={<Home/>} />*/}
           <Route path = '/' element={<Hero/>} />

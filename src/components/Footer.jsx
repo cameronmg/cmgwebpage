@@ -11,7 +11,7 @@ const Footer = () => {
     //make the y-padding 16(py-16) and the x-padding 4 (px-4)
     //create grid box and if the screen bigger than large create a grid with 3 columns (lg:grid-cols-3)
     //create gaps in the grid of size 8(gap-8)
-    <div className='z-35 max-w-full mx-auto px-4 grid text-gray-300 box-decoration-slice bg-gradient-to-r from-[#1039a8] to-[#18b4b9]'>
+    <div className='max-w-full mx-auto px-4 grid text-gray-300 box-decoration-slice bg-gradient-to-r from-[#1039a8] to-[#18b4b9]'>
         <div>
             <div className='text-center pt-2 mt-2 font-bold text-[#16e4f3]'>camgonza2002@gmail.com</div>
            
