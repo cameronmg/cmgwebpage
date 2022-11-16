@@ -4,7 +4,7 @@ import Typed from 'react-typed';
 
 const Hero = () => {
   return (
-    <div className='z-30 fixed ml-10 mt-7'> 
+    <div className='z-30 fixed ml-8 mt-7'> 
             {/*on anything else (mobile devices) make the screen text-4xl*/}
             {/*<h1 className = 'mt-[15%] md:text-7xl sm:text-6xl text-4xl font bold md:py-6 text-white'>Cameron Gonzalez</h1>*/}
             <Typed
