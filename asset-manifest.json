@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cmgwebpage/static/css/main.a3720b71.css",
-    "main.js": "/cmgwebpage/static/js/main.24680607.js",
+    "main.css": "/cmgwebpage/static/css/main.fb296cb4.css",
+    "main.js": "/cmgwebpage/static/js/main.92cd3ead.js",
     "static/media/Earth-Rotating-Sun-Space.gif": "/cmgwebpage/static/media/Earth-Rotating-Sun-Space.1389b2a7ee9a1de9480c.gif",
     "static/media/normal.jpg": "/cmgwebpage/static/media/normal.573c0a93c594c41b13ab.jpg",
     "static/media/cam.jpg": "/cmgwebpage/static/media/cam.6b50cf23036e4dfb1a79.jpg",
@@ -9,11 +9,11 @@
     "static/media/moon.jpg": "/cmgwebpage/static/media/moon.a2edaf8548e78714814b.jpg",
     "static/media/space.jpg": "/cmgwebpage/static/media/space.80687b0111f84fd6c97e.jpg",
     "index.html": "/cmgwebpage/index.html",
-    "main.a3720b71.css.map": "/cmgwebpage/static/css/main.a3720b71.css.map",
-    "main.24680607.js.map": "/cmgwebpage/static/js/main.24680607.js.map"
+    "main.fb296cb4.css.map": "/cmgwebpage/static/css/main.fb296cb4.css.map",
+    "main.92cd3ead.js.map": "/cmgwebpage/static/js/main.92cd3ead.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3720b71.css",
-    "static/js/main.24680607.js"
+    "static/css/main.fb296cb4.css",
+    "static/js/main.92cd3ead.js"
   ]
 }
